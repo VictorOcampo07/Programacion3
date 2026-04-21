@@ -75,4 +75,13 @@ end
       |> ingresar_booleano(:booleano)
   end
 end
+
+def ingresar(mensaje, :boolean) do
+valor =
+mensaje
+|> ingresar_texto()
+|> String.downcase()
+Enum.member?(["si", "sí", "s"], valor)
+end
+
 end
