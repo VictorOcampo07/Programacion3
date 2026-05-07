@@ -1,7 +1,8 @@
 defmodule MatrizConcurrente do
   def main do
     m = [
-      [60,22,41,5],
+       #j
+      [60,22,41,5], #i
       [13,33,44,5],
       [89,10,100,99],
       [5,101,6,34]
