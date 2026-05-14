@@ -1,4 +1,4 @@
-Code.require_file("../util.ex", __DIR__)
+Code.require_file("../../util.ex", __DIR__)
 defmodule IPCLocal do
   def main() do
     Util.mostrar_mensaje("PROCESO PRINCIPAL")

@@ -1,4 +1,4 @@
-Code.require_file("../util.ex", __DIR__)
+Code.require_file("../../util.ex", __DIR__)
 defmodule Cookie do
   @longitud_llave 128
 

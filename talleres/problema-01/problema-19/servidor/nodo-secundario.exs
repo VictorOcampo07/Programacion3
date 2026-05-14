@@ -1,3 +1,4 @@
+Code.require_file("../../util.ex", __DIR__)
 defmodule NodoServidor do
   @nombre_servicio_local :servicio_cadenas
 

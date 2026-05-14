@@ -1,4 +1,4 @@
-Code.require_file("../util.ex", __DIR__)
+Code.require_file("../../util.ex", __DIR__)
 defmodule NodoCliente do
   @nombre_servicio_local :servicio_respuesta
   @servicio_local {@nombre_servicio_local, :nodocliente@cliente}
